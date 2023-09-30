@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0px;
+  overflow: hidden; /* Hide scrollbars */
+  /* cursor: wait; Add after Preloader*/
+}

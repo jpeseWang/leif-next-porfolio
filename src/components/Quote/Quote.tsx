@@ -39,7 +39,7 @@ export default function QuoteSection() {
             className="contact_left_container"
           >
             <p className="white font-medium text-4xl mt-14 ml-4">
-              a passionate software developer dedicated to crafting innovative
+              A passionate software developer dedicated to crafting innovative
               solutions for today&apos;s digital challenges.
             </p>
           </motion.div>

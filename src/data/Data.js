@@ -15,6 +15,8 @@ import {
   FaAngular,
 } from "react-icons/fa";
 import { SiNestjs, SiTailwindcss, SiMongodb } from "react-icons/si";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { GrMysql } from "react-icons/gr";
 import { SiTypescript } from "react-icons/si";
 import work1 from "../assets/skills/work1.png";
 import work2 from "../assets/skills/work2.png";
@@ -61,14 +63,19 @@ export const bios = [
 
 export const icons = [
   {
-    id: 1,
-    icon: <FaHtml5 />,
-    bio: "HTML",
+    id: 11,
+    icon: <FaReact />,
+    bio: "ReactJS",
   },
   {
-    id: 2,
-    icon: <FaCss3 />,
-    bio: "CSS",
+    id: 12,
+    icon: <FaAngular />,
+    bio: "Angular",
+  },
+  {
+    id: 4,
+    icon: <SiTailwindcss />,
+    bio: "TailwindCSS",
   },
   {
     id: 3,
@@ -76,10 +83,16 @@ export const icons = [
     bio: "SASS",
   },
   {
-    id: 4,
-    icon: <SiTailwindcss />,
-    bio: "TailwindCSS",
+    id: 1,
+    icon: <GrMysql />,
+    bio: "My SQL",
   },
+  {
+    id: 10,
+    icon: <SiMongodb />,
+    bio: "MongoDB",
+  },
+
   {
     id: 4,
     icon: <FaGitAlt />,
@@ -105,33 +118,14 @@ export const icons = [
     icon: <FaNodeJs />,
     bio: "ExpressJS",
   },
-
   {
-    id: 10,
-    icon: <SiMongodb />,
-    bio: "MongoDB",
-  },
-
-  {
-    id: 11,
-    icon: <FaReact />,
-    bio: "ReactJS",
-  },
-
-  {
-    id: 12,
-    icon: <FaAngular />,
-    bio: "Angular",
+    id: 2,
+    icon: <BiLogoSpringBoot />,
+    bio: "Spring Boot",
   },
 ];
 
 export const experiences = [
-  {
-    id: 1,
-    year: "2022/2023",
-    position: "Front-End Developer",
-    company: "FPT University",
-  },
   {
     id: 2,
     year: "06/2023",
@@ -140,9 +134,9 @@ export const experiences = [
   },
   {
     id: 2,
-    year: "09/2023",
+    year: "08/2023",
     position: "Software Developer",
-    company: "Avepoint",
+    company: "AvePoint",
   },
 ];
 
